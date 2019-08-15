@@ -133,6 +133,7 @@ table {
 html,
 body {
   height: 100%;
+  font-family: 'Antic Didone', serif;
 }
 nav {
   display: flex;
@@ -190,7 +191,7 @@ header .button:hover {
 }
 .middleSection {
   width: 90%;
-  height: 30%;
+  height: 35%;
   display: flex;
   margin: 3% auto 3% auto;
 }
@@ -313,8 +314,11 @@ footer {
     width: 30%;
     margin: 2% 0 4% 15%;
   }
+  .middleSection {
+    height: auto;
+  }
   .workHistory {
-    margin: 65% auto 0 auto;
+    margin: 10% auto 0 auto;
   }
   .contact {
     margin: 4% auto 4% auto;

@@ -53,6 +53,7 @@ table {
 @backGround: #F7F7F7;
 @barPadding: 1.5%;
 @barBorder: .025rem solid grey;
+@fontFamily: 'Antic Didone', serif;
 
 .bars(){
 	border-top: @barBorder;
@@ -76,7 +77,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	font-family: @fontFamily;
 }
 
 nav {
@@ -147,7 +149,7 @@ header {
 
 .middleSection {
 	width: 90%;
-	height: 30%;
+	height: 35%;
 	display: flex;
 	margin: 3% auto 3% auto;
 	
@@ -281,8 +283,12 @@ footer {
 		}
 	}
 
+	.middleSection {
+		height: auto;
+	}
+
 	.workHistory {
-		margin: 65% auto 0 auto;
+		margin: 10% auto 0 auto;
 	}
 
 	.contact {
