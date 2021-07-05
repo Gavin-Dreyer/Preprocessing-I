@@ -1,1 +1,329 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: 'Antic Didone', serif;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 2.5% 0 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  padding: 2.5%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background: #B4EAFA;
+}
+header img {
+  max-width: 40%;
+  height: auto;
+  margin: 5% 0 2% 2.5%;
+}
+header h1 {
+  font-size: 3rem;
+  margin: 0 0 0 2.5%;
+}
+header p {
+  font-size: 1.3rem;
+  margin: 0 0 0 2.5%;
+  width: 80%;
+}
+header #line {
+  width: 80%;
+  border: 0.05rem solid grey;
+  margin: 2.5% auto 2.5% auto;
+}
+header #headerP {
+  margin: 1% 0 0 2.5%;
+}
+header .button {
+  background: gray;
+  color: white;
+  padding: 2%;
+  width: 20%;
+  text-align: center;
+  border-radius: 2.5%;
+  margin: 2% 0 10% 2.5%;
+}
+header .button:hover {
+  background: white;
+  color: grey;
+}
+.middleSection {
+  width: 90%;
+  height: 35%;
+  display: flex;
+  margin: 3% auto 3% auto;
+}
+.middleSection .about {
+  width: 50%;
+}
+.middleSection .about h2 {
+  font-size: 2rem;
+  margin: 0 0 2% 0;
+}
+.middleSection .about P {
+  width: 85%;
+}
+.middleSection .skills {
+  width: 50%;
+}
+.middleSection .skills h2 {
+  font-size: 2rem;
+  margin: 0 0 2% 0;
+}
+.middleSection .skills ul li {
+  border: 0.025rem solid grey;
+  padding: 3.5% 0 3.5% 2%;
+}
+.workHistory {
+  width: 85%;
+  margin: 15% auto 5% auto;
+  display: flex;
+  flex-direction: column;
+}
+.workHistory h2 {
+  font-size: 2rem;
+  margin: 0 0 1% 0;
+}
+.workHistory #bar1 {
+  border-top: 0.025rem solid grey;
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory #bar1 span {
+  width: 25%;
+  text-align: center;
+}
+.workHistory #bar2 {
+  background: #F7F7F7;
+  border-top: 0.025rem solid grey;
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory #bar2 span {
+  width: 25%;
+  text-align: center;
+}
+.workHistory #bar3 {
+  border-top: 0.025rem solid grey;
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory #bar3 span {
+  width: 25%;
+  text-align: center;
+}
+.workHistory #bar4 {
+  background: #F7F7F7;
+  border-top: 0.025rem solid grey;
+  padding: 1.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.workHistory #bar4 span {
+  width: 25%;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+}
+.contact #Contact {
+  font-size: 1.3rem;
+  margin: 0 0 2% 0;
+}
+.contact .divContact {
+  margin: 1% 0 1% 0;
+}
+footer {
+  background: grey;
+  color: white;
+  text-align: center;
+  width: 90%;
+  padding: 2.5% 0 5% 0;
+  margin: auto;
+}
+@media screen and (max-width: 500px) {
+  nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  header img {
+    max-width: 60%;
+    margin: 4% auto 4% auto;
+  }
+  header h1 {
+    width: 70%;
+    margin: auto;
+  }
+  header #headerP {
+    width: 70%;
+    margin: auto;
+  }
+  header p {
+    width: 70%;
+    margin: auto;
+  }
+  header .button {
+    width: 30%;
+    margin: 2% 0 4% 15%;
+  }
+  .middleSection {
+    height: auto;
+  }
+  .workHistory {
+    margin: 10% auto 0 auto;
+  }
+  .contact {
+    margin: 4% auto 4% auto;
+  }
+  footer {
+    margin: 4% 0 0 0;
+  }
+}
